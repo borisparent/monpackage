@@ -1,0 +1,18 @@
+Package: monpackage
+Title: demo
+Version: 0.0.0.9000
+Authors@R: person("boris", "parent", email = "boris.parent@inra.fr", role = c("aut", "cre"))
+Description: demo.
+Depends: R (>= 3.4.3)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    magrittr
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/borisparent/monpackage
+BugReports: https://github.com/borisparent/monpackage/issues
